@@ -18,7 +18,7 @@ struct node
   node_entry data;
   node* next;
   node() {
-    this->data = 0;
+    this->data = 9999;
     this->next = nullptr;
   }
   node(node_entry data) {
@@ -59,7 +59,7 @@ int main(){
   node* aux = first_node;
   
   while(aux) {  // While aux not nullptr
-    cout << "Mem. Address: " << aux << " Data in node: " << aux->data << endl;
+    cout << "Mem. Address: " << aux << " Data in node: " << aux->data << " Next is...: " << aux->next<< endl;
     aux = aux->next; // Move to the next node
   }
 
