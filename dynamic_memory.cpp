@@ -53,7 +53,7 @@ int main(){
    // The list should be like this at this point
   
   // |first_node| -->  |another_node| --> |alpha| --> |beta| -->nullptr
-  // |  0       |      |  77        |     | 17  |     | 13 |  
+  // |  0       |      |  77        |     | 13  |     | 17 |  
 
   // Traverse the list
   node* aux = first_node;
