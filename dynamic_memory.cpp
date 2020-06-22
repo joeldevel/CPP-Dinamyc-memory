@@ -18,7 +18,7 @@ struct node
   node_entry data;
   node* next;
   node() {
-    this->data = 9999;
+    this->data = 0;
     this->next = nullptr;
   }
   node(node_entry data) {
